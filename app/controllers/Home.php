@@ -1,7 +1,7 @@
 <?php
 
 class Home extends Controller {
-    public function Index() {
+    public function index() {
         $data['title'] = 'Dashboard';
         $this->view('template/header', $data);
         $this->view('home/index', $data);
