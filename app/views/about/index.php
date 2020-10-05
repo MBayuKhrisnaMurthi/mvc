@@ -1,0 +1,1 @@
+Yo guys its me <?= $data['name']; ?>, im <?= $data['age']; ?> years old and my hobby is <?= $data['hobby']; ?>
